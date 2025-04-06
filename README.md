@@ -92,36 +92,6 @@ Redistribution and use in source and binary forms, with or without modification,
 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-EOF
 
-echo "README.md created and populated successfully!"
+
 ```
-
----
-
-### How to Use
-1. Save the script as `populate_readme.sh`.
-2. Ensure you’re in the same directory as `pos_system/` (where the initial setup was run).
-3. Run it with:
-   ```bash
-   bash populate_readme.sh
-   ```
-4. This will create and populate `pos_system/README.md` with the content above.
-
----
-
-### Explanation of `README.md`
-- **Metadata**: Includes author, email, license, and date (April 06, 2025, per the current date provided).
-- **Description**: Details the system’s purpose, features, and structure.
-- **Instructions**: Provides steps for installation, usage, and configuration.
-- **License**: Uses the BSD 3-Clause License as requested, with standard terms.
-
----
-
-### Notes
-- The `README.md` assumes the system is complete with all previous files (`main.py`, `payment.py`, `inventory.py`, `database.py`, `ui.py`, `config.py`).
-- You can view the file with:
-  ```bash
-  cat pos_system/README.md
-  ```
-
