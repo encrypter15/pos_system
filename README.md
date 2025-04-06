@@ -3,7 +3,6 @@
 **Author**: Encrypter15  
 **Email**: encrypter15@gmail.com  
 **License**: BSD License (see below for details)  
-**Date**: April 06, 2025
 
 ## Description
 
